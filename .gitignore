@@ -1,0 +1,11 @@
+#ignore file
+.gitignore
+.classpath
+.myumldata
+.project
+*.class
+*.temp
+
+#ignore directory
+/.settings/
+/target/
