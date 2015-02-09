@@ -4,7 +4,7 @@
 
 	<groupId>com.secondriver</groupId>
 	<artifactId>qiniu-tools</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0GA</version>
 	<packaging>jar</packaging>
 
 	<name>qiniu-tools</name>
@@ -28,4 +28,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 </project>

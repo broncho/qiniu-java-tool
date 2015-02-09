@@ -60,6 +60,5 @@ public class HttpUtils {
 			e.printStackTrace();
 		}
 		return null;
-
 	}
 }
