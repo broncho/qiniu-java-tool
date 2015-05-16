@@ -4,7 +4,7 @@
 
 	<groupId>secondriver</groupId>
 	<artifactId>qiniu-tools</artifactId>
-	<version>1.0.0-ga</version>
+	<version>1.0.2-ga</version>
 	<packaging>jar</packaging>
 
 	<name>qiniu-tools</name>
