@@ -2,16 +2,25 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.secondriver</groupId>
+	<groupId>secondriver</groupId>
 	<artifactId>qiniu-tools</artifactId>
-	<version>1.0.0GA</version>
+	<version>1.0.0-ga</version>
 	<packaging>jar</packaging>
 
 	<name>qiniu-tools</name>
-	<url>http://maven.apache.org</url>
+	<url>http://maven.oschina.net/content/repositories/thirdparty/</url>
+
+	<developers>
+		<developer>
+			<id>secondriver</id>
+			<name>secondriver</name>
+			<url>http://aiilive.blog.51cto.com</url>
+		</developer>
+	</developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
@@ -24,9 +33,22 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.8.1</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
