@@ -35,11 +35,13 @@ qiniu-java-tool
 
 这样就可以获取到上传文件的`token`字符串。
 
-#### 项目终结
+===========
+
+### 项目终结
 
 随着JDK7+的使用普及，七牛官方提供了[新版本的SDK for Java](https://github.com/qiniu/java-sdk)的实现，该项目不再建议使用了。
 
-by 2015-09-23
+by 2015-09-23 secondriver
 
 
 
